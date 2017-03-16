@@ -15,7 +15,7 @@ le "due date" correspond à la date d'échéance de la facture: date à laquelle
 
 le "payment date" correspond à la date à laquelle la facture a été payée
 
-le contact est la personne à contacter concernant cette facture.
+le contact est la personne à contacter.
 
 le "price" est le prix, en centime d'euros.
 
