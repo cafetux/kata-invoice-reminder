@@ -10,9 +10,13 @@ Vous devez implémenter un programme permettant de charger les données de factu
 Chaque ligne correspond à une facture à payer.
 
 les dates sont au format: D12M08Y2017 = le 12 Aout 2017
+
 le "due date" correspond à la date d'échéance de la facture: date à laquelle elle doit avoir été payée
+
 le "payment date" correspond à la date à laquelle la facture a été payée
+
 le contact est la personne à contacter concernant cette facture.
+
 le "price" est le prix, en centime d'euros.
 
 # Règles métier
