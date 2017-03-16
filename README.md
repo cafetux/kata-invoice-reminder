@@ -49,6 +49,12 @@ Vous remerciant de faire le nécessaire,
 Le Service Juridique
 ```
 
+# Focus
+La stratégie de test (TU,TI)
+Model métier vs interractions extérieures 
+
+Faire du code facilement testable
+Faire du code ouvert aux évolutions (csv vs database)
 
 
 
