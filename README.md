@@ -2,7 +2,7 @@
 kata sur la relance de facture. Inspiré du "birthday greetings" kata
 
 # But
-Votre entreprise gère ses factures avec un vieil applicatif Legacy exposant du Soap.
+Votre entreprise gère ses factures avec un vieil applicatif Legacy exposant du csv over HTTP.
 
 Il vous est demandé de faire une appication à coté, pour gérer la relace de paiement des factures.
 
@@ -13,7 +13,7 @@ Vous devez implémenter un programme permettant de charger les données de factu
 
 # Description des données
 
-chaque facture est définie comme tel dans la reponse xml: 
+chaque facture est définie comme tel dans la reponse: 
 
 les dates sont décomposées en 3 champs:
 
