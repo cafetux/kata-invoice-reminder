@@ -13,10 +13,15 @@ Vous devez implémenter un programme permettant de charger les données de factu
 chaque facture est définie comme tel dans la reponse xml: 
 
 les dates sont décomposées en 3 champs:
+
          - year:2017
+
          - month:8
+         
          - day: 12
+         
          = le 12 Aout 2017
+
 
 le "due date" correspond à la date d'échéance de la facture: date à laquelle elle doit avoir été payée
 
