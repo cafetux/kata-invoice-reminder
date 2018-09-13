@@ -2,14 +2,21 @@
 kata sur la relance de facture. Inspiré du "birthday greetings" kata
 
 # But
+Votre entreprise gère ses factures avec un vieil applicatif Legacy exposant du Soap.
+Il vous est demandé de faire une appication à coté, pour gérer la relace de paiement des factures.
+L'application Legacy vous permet de retrouver les factures non payées. Il n'est pas possible de filtrer. 
 Vous devez implémenter un programme permettant de charger les données de facturation, et qui pourra notifier les débiteur qu'ils ont une facture à payer.
 
 
 # Description des données
 
-Chaque ligne correspond à une facture à payer.
+chaque facture est définie comme tel dans la reponse xml: 
 
-les dates sont au format: D12M08Y2017 = le 12 Aout 2017
+les dates sont décomposées en 3 champs:
+         - year:2017
+         - month:8
+         - day: 12
+         = le 12 Aout 2017
 
 le "due date" correspond à la date d'échéance de la facture: date à laquelle elle doit avoir été payée
 
@@ -54,7 +61,7 @@ La stratégie de test (TU,TI)
 Model métier vs interractions extérieures 
 
 Faire du code facilement testable
-Faire du code ouvert aux évolutions (csv vs database)
+Faire du code ouvert aux évolutions
 
 
 
