@@ -6,7 +6,7 @@ Votre entreprise gère ses factures avec un vieil applicatif Legacy exposant du 
 
 Il vous est demandé de faire une appication à coté, pour gérer la relace de paiement des factures.
 
-L'application Legacy vous permet de retrouver les factures non payées. Il n'est pas possible de filtrer. 
+L'application Legacy vous permet de retrouver les factures non archivées. Il n'est pas possible de filtrer. 
 
 Vous devez implémenter un programme permettant de charger les données de facturation, et qui pourra notifier les débiteur qu'ils ont une facture à payer.
 
